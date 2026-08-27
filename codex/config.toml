@@ -1,0 +1,4 @@
+# Allow inspection, but require the user to approve actions outside read-only mode.
+approval_policy = "on-request"
+approvals_reviewer = "user"
+sandbox_mode = "read-only"
