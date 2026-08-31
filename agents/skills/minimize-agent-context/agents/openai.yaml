@@ -1,0 +1,7 @@
+interface:
+  display_name: "Minimize Agent Context"
+  short_description: "Trim redundant agent instructions safely"
+  default_prompt: "Use $minimize-agent-context to audit and reduce unnecessary agent context in this repository."
+
+policy:
+  allow_implicit_invocation: false

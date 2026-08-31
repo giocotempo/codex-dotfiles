@@ -1,4 +1,3 @@
-# Allow inspection, but require the user to approve actions outside read-only mode.
+# Common profile: allow inspection; require approval to modify files.
 approval_policy = "on-request"
-approvals_reviewer = "user"
 sandbox_mode = "read-only"

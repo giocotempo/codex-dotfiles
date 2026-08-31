@@ -1,28 +1,8 @@
-# Global development policy
+# Global development instructions
 
-Keep project-specific rules in the project's own `AGENTS.md`.
+- Keep changes scoped; preserve existing architecture and conventions. Avoid unrelated refactoring.
+- Do not commit, push, or force-push unless explicitly requested. Inspect changes before a requested commit, and never commit secrets.
+- Run relevant tests when practical. Do not weaken tests to make them pass; report checks that could not run.
+- Prefer existing dependencies; add a dependency only when necessary.
 
-## Code changes
-
-- Understand the relevant code before changing it.
-- Keep changes scoped to the user's request; do not perform unrelated refactoring.
-- Preserve the existing architecture, conventions, and naming unless there is a clear reason to change them.
-- Do not modify generated files manually unless that is the appropriate workflow.
-
-## Git
-
-- Inspect changes before committing.
-- Never force push unless explicitly requested.
-- Do not push directly to protected or default branches unless explicitly requested.
-- Do not commit secrets or credentials.
-
-## Testing
-
-- Run relevant tests after code changes when practical.
-- Do not delete, disable, or weaken tests simply to make them pass.
-- Clearly report tests that could not be executed.
-
-## Dependencies
-
-- Avoid introducing unnecessary dependencies.
-- Check whether existing dependencies can solve the problem before adding new ones.
+Keep project-specific instructions in the project's `AGENTS.md`.

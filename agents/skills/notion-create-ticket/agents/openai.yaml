@@ -1,0 +1,6 @@
+interface:
+  display_name: "Create Notion Ticket"
+  short_description: "Create one ticket in a supplied Notion destination"
+
+policy:
+  allow_implicit_invocation: false
