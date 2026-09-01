@@ -1,6 +1,7 @@
 interface:
   display_name: "Create Notion Ticket"
-  short_description: "Create one ticket in a supplied Notion destination"
+  short_description: "Create one structured ticket in Notion"
+  default_prompt: "Use $notion-create-ticket to create a ticket with purpose, as-is, to-be, and acceptance criteria at my Notion URL."
 
 policy:
   allow_implicit_invocation: false

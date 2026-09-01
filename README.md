@@ -144,7 +144,7 @@ $minimize-agent-context Audit and simplify the agent customization in this repos
 Create a Notion ticket with a destination supplied each time:
 
 ```text
-$notion-create-ticket Create a bug ticket in <Notion URL>: <details>.
+$notion-create-ticket Create <title> in <Notion URL>. Purpose: <purpose>. As-is: <current state>. To-be: <desired state>. Acceptance criteria: <criteria>.
 ```
 
 Both skills disable implicit invocation. Notion destinations are not stored in
